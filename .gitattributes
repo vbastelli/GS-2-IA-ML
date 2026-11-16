@@ -1,0 +1,13 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.ipynb text eol=lf
+*.gpkg binary
+*.joblib binary
+*.png binary
+*.pdf binary
+# A versão legível para revisão é agua_na_rua_ml.ipynb e estudo.py.
+ml/agua_na_rua_colab.ipynb -diff

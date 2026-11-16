@@ -1,0 +1,599 @@
+{
+  "data_inspecao": "2026-11-16T18:17:30.627117-03:00",
+  "consulta_catalogos": "2026-11-12",
+  "arquivos": [
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2013.gpkg",
+      "sha256": "abafed7af9199ac475b3facfdb6f6a7dfd1377ca5a21b63a90fda803cf41eb7d",
+      "bytes": 483328,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2013",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2014.gpkg",
+      "sha256": "d5c9c4138d1f5d5cec3d2149d1b00814927408f78df1ddba2449d9bf62f3fb13",
+      "bytes": 512000,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2014",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2015.gpkg",
+      "sha256": "19c6136238831c0ebfa9c7d3f95463cc0b7d566af2024e7f280de35416be29c4",
+      "bytes": 815104,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2015",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2016.gpkg",
+      "sha256": "63598e2bedc8fe9324d37c49e2b36b14a7762ba8b94a610236499bb99a634e7a",
+      "bytes": 1269760,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2016",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2017.gpkg",
+      "sha256": "d7bb6e9c05d89d64c7e936b0f8580c05423245106903a0f5b0769ab3ab0607fb",
+      "bytes": 749568,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2017",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2018.gpkg",
+      "sha256": "e7941eaf21e8c0d2c70cd040f304bd307918443e3fded7aea7ce39ee466003ef",
+      "bytes": 868352,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2018",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2019.gpkg",
+      "sha256": "b39e0a7799dbc0a278c5f3a4d4fed0c7a66c9d3902f9f99bee2b28e6863b7967",
+      "bytes": 1335296,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2019",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2020.gpkg",
+      "sha256": "58cab7ebf8191bfaf4c432f2e088448bd41b488a7bbbbeb5030ee26fb1acd626",
+      "bytes": 794624,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2020",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2021.gpkg",
+      "sha256": "16188c13b20fcccaf992f1b92cbed8d65cb1b8d02e090afbfcb8f9ab6cd27ce1",
+      "bytes": 602112,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2021",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2022.gpkg",
+      "sha256": "da7b422883b9ccc25ce3c6cd3d41adb5a243256381b75b7e11f4eec1af015707",
+      "bytes": 741376,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2022",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2023.gpkg",
+      "sha256": "d158d06e66488b3a498a723a7161f5eaf6720ae3f158d30c5e2ca9b11096c813",
+      "bytes": 1003520,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2023",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2024.gpkg",
+      "sha256": "5136a7af3d9b9ffdaecdbd469c0949e8290666e7146dcca1fa4012357d3a8256",
+      "bytes": 786432,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2024",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2025.gpkg",
+      "sha256": "0f3ad8c55d94317fedd6f52f4590ec5ff2a45cc2e53b3a838626b6b807d18c8c",
+      "bytes": 925696,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2025",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "id",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "POINT"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(34)"
+        },
+        {
+          "nome": "subprefeit",
+          "tipo": "TEXT(32)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(6)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/brutos/SIRGAS_GPKG_riscoocorrencia_2026.gpkg",
+      "sha256": "c03753213bed8a7c66d20c6833722ec08ef914158a8cbc8f5c68a5f6945f5fb2",
+      "bytes": 458752,
+      "camada": "SIRGAS_GPKG_riscoocorrencia_2026",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "primaryindex",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "geom",
+          "tipo": "GEOMETRY"
+        },
+        {
+          "nome": "data",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "ocorrencia",
+          "tipo": "TEXT(40)"
+        },
+        {
+          "nome": "subpreit",
+          "tipo": "TEXT(50)"
+        },
+        {
+          "nome": "name",
+          "tipo": "TEXT(10)"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/432c06b1-03a1-4b1f-9210-423e1b58e869",
+      "url_download_efetivo": null,
+      "data_download": null
+    },
+    {
+      "arquivo": "ml/dados/distritos/distrito_municipal_v2.gpkg",
+      "sha256": "3b8af687e83a08ac475cecacba7c45de2c1b13d848112b896f6514fbf1e50902",
+      "bytes": 2408448,
+      "camada": "distrito_municipal_v2",
+      "epsg": 31983,
+      "esquema": [
+        {
+          "nome": "fid",
+          "tipo": "INTEGER"
+        },
+        {
+          "nome": "cd_identificador_distrito",
+          "tipo": "NUMERIC"
+        },
+        {
+          "nome": "cd_identificador_subprefeitura",
+          "tipo": "NUMERIC"
+        },
+        {
+          "nome": "ge_poligono",
+          "tipo": "POLYGON"
+        },
+        {
+          "nome": "cd_distrito_municipal",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "nm_distrito_municipal",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "sg_distrito_municipal",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "tx_escala",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "sg_fonte_original",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "dt_criacao",
+          "tipo": "DATE"
+        },
+        {
+          "nome": "dt_atualizacao",
+          "tipo": "DATETIME"
+        },
+        {
+          "nome": "cd_usuario_atualizacao",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "cd_tipo_discrepancia",
+          "tipo": "MEDIUMINT"
+        },
+        {
+          "nome": "qt_area_quilometro",
+          "tipo": "NUMERIC"
+        },
+        {
+          "nome": "qt_area_metro",
+          "tipo": "NUMERIC"
+        },
+        {
+          "nome": "cd_regiao_05",
+          "tipo": "MEDIUMINT"
+        },
+        {
+          "nome": "nm_regiao_05",
+          "tipo": "TEXT"
+        },
+        {
+          "nome": "cd_regiao_08",
+          "tipo": "MEDIUMINT"
+        },
+        {
+          "nome": "nm_regiao_08",
+          "tipo": "TEXT"
+        }
+      ],
+      "url_origem": "https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/srv/api/records/51f75eab-6d90-451e-9f80-c21c1ac72630",
+      "url_download_efetivo": null,
+      "data_download": null
+    }
+  ],
+  "nota": "Arquivos fornecidos pelo usuário. Data e URL direta do download não informadas; hashes permitem verificar as cópias locais."
+}

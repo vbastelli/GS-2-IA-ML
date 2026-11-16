@@ -1,0 +1,15 @@
+﻿arquivo,ano_arquivo,total,data_min,data_max,datas_invalidas,ano_divergente,meses_todos_tipos,alagamentos,identificadores_vazios,campo_distrito
+SIRGAS_GPKG_riscoocorrencia_2013.gpkg,2013,2614,2013-01-01,2013-12-31,0,0,12,716,0,False
+SIRGAS_GPKG_riscoocorrencia_2014.gpkg,2014,2782,2014-01-01,2014-12-31,0,0,12,498,0,False
+SIRGAS_GPKG_riscoocorrencia_2015.gpkg,2015,4769,2015-01-01,2015-12-31,0,0,12,956,0,False
+SIRGAS_GPKG_riscoocorrencia_2016.gpkg,2016,7748,2016-01-01,2016-12-31,0,0,12,2045,0,False
+SIRGAS_GPKG_riscoocorrencia_2017.gpkg,2017,4381,2017-01-01,2017-12-31,0,0,12,607,0,False
+SIRGAS_GPKG_riscoocorrencia_2018.gpkg,2018,5354,2018-01-01,2018-12-31,0,0,12,300,0,False
+SIRGAS_GPKG_riscoocorrencia_2019.gpkg,2019,8788,2019-01-01,2019-12-31,0,0,12,391,0,False
+SIRGAS_GPKG_riscoocorrencia_2020.gpkg,2020,4808,2020-01-01,2020-12-31,0,0,12,326,0,False
+SIRGAS_GPKG_riscoocorrencia_2021.gpkg,2021,3526,2021-01-01,2021-12-31,0,0,12,155,0,False
+SIRGAS_GPKG_riscoocorrencia_2022.gpkg,2022,4527,2022-01-01,2022-12-31,0,0,12,220,0,False
+SIRGAS_GPKG_riscoocorrencia_2023.gpkg,2023,6341,2023-01-01,2023-12-31,0,0,12,323,0,False
+SIRGAS_GPKG_riscoocorrencia_2024.gpkg,2024,4736,2024-01-02,2024-12-31,0,0,12,214,0,False
+SIRGAS_GPKG_riscoocorrencia_2025.gpkg,2025,5993,2025-01-01,2025-12-31,0,0,12,281,3252,False
+SIRGAS_GPKG_riscoocorrencia_2026.gpkg,2026,2579,2026-01-01,2026-09-30,0,0,9,292,0,False

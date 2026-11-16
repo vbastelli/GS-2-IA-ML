@@ -1,0 +1,16 @@
+{
+  "carregados": 68946,
+  "excluidos_fora_2013_2025": 2579,
+  "outros_tipos_no_periodo": 59335,
+  "alagamentos_brutos": 7032,
+  "duplicatas_removidas": 110,
+  "apos_deduplicacao": 6922,
+  "sem_distrito": 5,
+  "restantes": 6917,
+  "distritos_com_registros": 96,
+  "identificadores_vazios_preservados": 238,
+  "associacao": {
+    "cruzamento_espacial": 6917,
+    "fora_da_malha": 5
+  }
+}

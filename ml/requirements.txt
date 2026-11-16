@@ -1,0 +1,14 @@
+# Python 3.14.5; versões verificadas na execução
+pandas==3.1.1
+numpy==2.5.4
+geopandas==1.2.0
+shapely==2.2.0
+pyogrio==0.13.0
+pyproj==3.8.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+joblib==1.6.0
+threadpoolctl==3.8.0
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.jupyter/
+# Pacotes locais de transferência; o notebook de Colab já inclui os dados.
+/*.zip
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+/prompts.md

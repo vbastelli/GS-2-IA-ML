@@ -1,0 +1,46 @@
+{
+  "versoes": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "pyogrio": "0.13.0",
+    "pyproj": "3.8.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0",
+    "nbformat": "5.11.1",
+    "nbconvert": "7.17.2",
+    "ipykernel": "7.4.0"
+  },
+  "parametros": {
+    "kmeans__n_clusters": 2,
+    "kmeans__n_init": 10,
+    "pca__n_components": 0.9
+  },
+  "treinado_em": "Somente distritos do treino; não reajustado no conjunto completo.",
+  "atributos": [
+    "media_anual",
+    "fracao_anos_com_registro",
+    "cv_anual",
+    "densidade_anual_km2",
+    "prop_mes_01",
+    "prop_mes_02",
+    "prop_mes_03",
+    "prop_mes_04",
+    "prop_mes_05",
+    "prop_mes_06",
+    "prop_mes_07",
+    "prop_mes_08",
+    "prop_mes_09",
+    "prop_mes_10",
+    "prop_mes_11",
+    "prop_mes_12"
+  ],
+  "log1p": [
+    "media_anual",
+    "densidade_anual_km2"
+  ],
+  "seed": 42
+}

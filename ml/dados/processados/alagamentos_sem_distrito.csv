@@ -1,0 +1,6 @@
+﻿chave_registro,arquivo,fid_origem,id_registro,data,ano,mes,tipo,distrito_original,codigo_distrito,distrito,situacao_distrito,distancia_malha_m
+SIRGAS_GPKG_riscoocorrencia_2018.gpkg:4980,SIRGAS_GPKG_riscoocorrencia_2018.gpkg,4980,20806236,2018-01-07,2018,1,ALAGAMENTO,,,,fora_da_malha,0.7628368368119146
+SIRGAS_GPKG_riscoocorrencia_2018.gpkg:4981,SIRGAS_GPKG_riscoocorrencia_2018.gpkg,4981,20806235,2018-01-07,2018,1,ALAGAMENTO,,,,fora_da_malha,0.7628368368119146
+SIRGAS_GPKG_riscoocorrencia_2019.gpkg:6626,SIRGAS_GPKG_riscoocorrencia_2019.gpkg,6626,6626,2019-04-16,2019,4,ALAGAMENTO,,,,fora_da_malha,24.066663566202948
+SIRGAS_GPKG_riscoocorrencia_2020.gpkg:4267,SIRGAS_GPKG_riscoocorrencia_2020.gpkg,4267,24865312,2020-12-29,2020,12,ALAGAMENTO,,,,fora_da_malha,13.760826955789815
+SIRGAS_GPKG_riscoocorrencia_2020.gpkg:4430,SIRGAS_GPKG_riscoocorrencia_2020.gpkg,4430,22875979,2020-02-10,2020,2,ALAGAMENTO,,,,fora_da_malha,1.1948696894339785

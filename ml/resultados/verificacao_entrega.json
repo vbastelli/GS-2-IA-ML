@@ -1,0 +1,14 @@
+{
+  "notebook_sem_erros": true,
+  "celulas_codigo_executadas": 9,
+  "figuras_no_notebook": 7,
+  "hashes_originais_preservados": 15,
+  "ficha_preservada": true,
+  "treino": 76,
+  "teste": 20,
+  "cv_somente_treino": true,
+  "configuracoes_avaliadas": 18,
+  "configuracoes_com_tres_folds_validos": 16,
+  "modelo_ajustado_em_distritos": 76,
+  "contagens_e_documentos_coerentes": true
+}

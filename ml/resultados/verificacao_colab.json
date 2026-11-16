@@ -1,0 +1,13 @@
+{
+  "arquivo": "ml/agua_na_rua_colab.ipynb",
+  "tamanho_mb": 10.08,
+  "execucao": "Kernel limpo local; interface hospedada do Colab não testada.",
+  "celulas_codigo_executadas": 12,
+  "erros": 0,
+  "figuras": 7,
+  "gpkgs_completos_embutidos": 15,
+  "hashes_dados_e_apoio_conferidos": true,
+  "arquivos_embutidos_atualizados": 28,
+  "resultados_compativeis_com_execucao_original": true,
+  "zip_resultados_verificado": true
+}
