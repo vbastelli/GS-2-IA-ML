@@ -24,6 +24,8 @@ O [notebook principal executado](../ml/agua_na_rua_ml.ipynb) é menor e mais fá
 
 ## Reprodução e limites da verificação
 
-A edição de arquivo único foi executada do começo ao fim em um kernel limpo local, extraindo os dados em pasta temporária, e seus resultados foram comparados com a execução original. A interface hospedada do Colab ainda não foi usada para executar o estudo. Veja [verificacao_colab.json](../ml/resultados/verificacao_colab.json).
+A equipe forneceu a edição executada no Colab. A revisão realizada em 18/11/2026 confirmou as 12 células de código executadas, sete gráficos e ausência de saídas de erro. As saídas registram Python 3.13.18, e as métricas visíveis e a configuração escolhida conferem com a referência local. O notebook conserva os resultados dessa execução. Os 15 GPKGs completos do pacote embutido tiveram seus SHA-256 conferidos com os originais do repositório. [Verificação da execução](../ml/resultados/verificacao_colab.json).
+
+O pacote embutido conserva o código e os documentos do momento em que o notebook foi preparado. Os documentos externos do repositório também registram a conferência posterior da execução fornecida pela equipe.
 
 O ambiente do Colab pode ter versões diferentes das usadas no Windows; as versões de cada nova execução ficam registradas no modelo e no ZIP. Os resultados de referência estão em [metricas_finais.json](../ml/resultados/metricas_finais.json). As dependências locais fixadas em [requirements.txt](../ml/requirements.txt) se referem ao Python 3.14.5 do ambiente original; o notebook de Colab prepara automaticamente dependências compatíveis com seu ambiente.

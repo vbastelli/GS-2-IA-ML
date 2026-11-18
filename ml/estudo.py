@@ -324,6 +324,11 @@ def documents(s):
     repo=delivery.get('repositorio') or '[URL não informada]'
     turma=delivery.get('turma') or 'Não informada'
     video=delivery.get('video') or 'Pendente de gravação e publicação pela equipe'
+    evidence_path=OUT/'verificacao_colab.json'
+    evidence=json.loads(evidence_path.read_text(encoding='utf-8')) if evidence_path.exists() else {}
+    colab_status=('A equipe forneceu o notebook executado no Colab. A revisão confirmou células executadas, sete gráficos, ausência de saídas de erro e resultados compatíveis com a execução local.'
+                  if evidence.get('colab_hospedado_testado') else
+                  'A edição de Colab foi validada em kernel limpo local. A conferência na interface hospedada está pendente.')
     repo_path=repo.removeprefix('https://github.com/').removesuffix('.git')
     colab_url=f'https://colab.research.google.com/github/{repo_path}/blob/main/ml/agua_na_rua_colab.ipynb' if repo.startswith('https://github.com/') else 'https://colab.research.google.com/'
     def fmt(v): return 'N/A' if v is None else f'{v:.4f}'
@@ -471,7 +476,9 @@ O prazo do edital é **19/11/2026, às 23h55 de São Paulo**: um integrante envi
 
 {commands}
 
-Após a execução, rode `python ml/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json). A edição de Colab também foi validada em kernel limpo local; a interface hospedada do Colab ainda não foi usada para executar o estudo. [Verificação da edição de Colab](ml/resultados/verificacao_colab.json).
+Após a execução, rode `python ml/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json).
+
+{colab_status} [Verificação da edição de Colab](ml/resultados/verificacao_colab.json).
 
 ## Limites para o cidadão
 

@@ -15,7 +15,7 @@
 | URL do repositório | [vbastelli/GS-2-IA-ML](https://github.com/vbastelli/GS-2-IA-ML), fornecida pela equipe |
 | Turma | 3ESPZ, informada pela equipe |
 | Vídeo YouTube não listado, até cinco minutos | Gravação, publicação e link pendentes da equipe |
-| Conferência na interface hospedada do Colab | Validação integral em kernel limpo local concluída; teste da interface hospedada pendente |
+| Conferência da execução no Colab | Notebook executado fornecido pela equipe e revisado em 18/11/2026, com 12 células de código, sete gráficos e resultados coerentes |
 | Envio dos links na tarefa do Teams | A realizar por um integrante até 19/11/2026, às 23h55 de São Paulo |
 
 Nomes e RMs estão em [integrantes.txt](integrantes.txt). A turma e a URL foram fornecidas posteriormente pela equipe. A Ficha foi preservada, preenchendo apenas o campo previsto para o link do repositório.

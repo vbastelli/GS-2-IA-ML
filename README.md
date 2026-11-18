@@ -134,7 +134,9 @@ python -m venv .venv
 O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
 
 
-Após a execução, rode `python ml/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json). A edição de Colab também foi validada em kernel limpo local; a interface hospedada do Colab ainda não foi usada para executar o estudo. [Verificação da edição de Colab](ml/resultados/verificacao_colab.json).
+Após a execução, rode `python ml/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json).
+
+A equipe forneceu o notebook executado no Colab com Python 3.13.18. A revisão confirmou as 12 células de código executadas, sete gráficos, ausência de saídas de erro e resultados compatíveis com a execução local. O arquivo publicado conserva as saídas fornecidas pela equipe. [Verificação da edição de Colab](ml/resultados/verificacao_colab.json).
 
 ## Limites para o cidadão
 
