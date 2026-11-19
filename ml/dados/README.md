@@ -37,10 +37,10 @@ Os atributos são log1p da média anual e da densidade anual por km², fração 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r ml/requirements.txt
-.\.venv\Scripts\python.exe ml/executar_notebook.py
+.\.venv\Scripts\python.exe ml/apoio/executar_notebook.py
 ```
 
-O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
+O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/apoio/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
 
 
-Todas as saídas são regeneradas pelo notebook. requirements.txt fixa dependências diretas verificadas; requirements-lock.txt captura também dependências transitivas. Não há dados simulados no estudo.
+Todas as saídas são regeneradas pelo notebook. requirements.txt fixa dependências diretas verificadas; apoio/requirements-lock.txt captura também dependências transitivas. Não há dados simulados no estudo.

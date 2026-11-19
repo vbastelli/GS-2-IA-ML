@@ -12,7 +12,7 @@ import zipfile
 
 import nbformat
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 DEST = ROOT/'ml/agua_na_rua_colab.ipynb'
 
 
@@ -31,7 +31,7 @@ def build():
     payload = buffer.getvalue()
     b64 = base64.b64encode(payload).decode('ascii')
     encoded = '\n'.join(repr(b64[i:i+120]) for i in range(0,len(b64),120))
-    notebook = nbformat.read(ROOT/'ml/agua_na_rua_ml.ipynb',as_version=4)
+    notebook = nbformat.read(ROOT/'ml/apoio/agua_na_rua_ml.ipynb',as_version=4)
     for cell in notebook.cells:
         if cell.cell_type == 'markdown':
             # Corrigir caracteres de ligação corrompidos na redação inicial.
@@ -147,7 +147,7 @@ else:
 '''))
     notebook.metadata['colab'] = {'name':DEST.name,'provenance':[]}
     notebook.metadata['kernelspec']={'display_name':'Python 3','language':'python','name':'python3'}
-    notebook.metadata['agua_na_rua']={'pacote_sha256':hashlib.sha256(payload).hexdigest(),'arquivos_sha256':manifest,'gerador':'ml/preparar_colab.py'}
+    notebook.metadata['agua_na_rua']={'pacote_sha256':hashlib.sha256(payload).hexdigest(),'arquivos_sha256':manifest,'gerador':'ml/apoio/preparar_colab.py'}
     for cell in notebook.cells:
         if cell.cell_type=='code':
             cell.outputs=[]

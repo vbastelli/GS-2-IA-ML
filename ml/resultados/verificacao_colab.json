@@ -10,7 +10,7 @@
   "resultados_compativeis_com_execucao_original": true,
   "colab_hospedado_testado": true,
   "origem_evidencia": "Arquivo agua_na_rua_colab(1).ipynb fornecido pela equipe",
-  "sha256_notebook": "cf6dffebe3c27e65c8625d9c3246c5d82c9f6154fc45794be18ea06f4ed6f3b3",
+  "sha256_notebook": "ae6bf7d5d494e004ebb712dd25088871c8c1f7cdc6c19101b80fcac0bf7e09de",
   "python_observado_nas_saidas": "3.13.18",
   "python_metadata_herdado": "3.14.5",
   "data_revisao": "2026-11-18",
@@ -43,5 +43,20 @@
     "saidas_executadas_preservadas": true,
     "novo_treinamento": false,
     "hashes_pacote_e_arquivos_conferidos": true
+  },
+  "reorganizacao_documental": {
+    "data": "2026-11-19",
+    "pasta_apoio": "ml/apoio",
+    "arquivos_embutidos_atualizados": [
+      "ml/estudo.py",
+      "docs/entrega.json",
+      "docs/ENTREGA.md",
+      "docs/EXECUTAR_COLAB.md",
+      "docs/GUIA_AVALIACAO.md",
+      "docs/ROTEIRO_VIDEO_ML.md"
+    ],
+    "saidas_e_contadores_preservados": true,
+    "dados_e_codigo_cientifico_preservados": true,
+    "novo_treinamento": false
   }
 }

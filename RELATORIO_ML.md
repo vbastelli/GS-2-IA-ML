@@ -1,6 +1,6 @@
 # Relatório de IA & Machine Learning — Água na Rua
 
-Síntese de aproximadamente duas páginas (Markdown não fixa paginação). Detalhes e saídas no [notebook](ml/agua_na_rua_ml.ipynb).
+Síntese de aproximadamente duas páginas (Markdown não fixa paginação). Detalhes e saídas no [notebook](ml/apoio/agua_na_rua_ml.ipynb).
 
 ## Problema, dados e preparação
 

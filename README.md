@@ -65,7 +65,7 @@ Serão avaliadas pelo menos dez combinações de três hiperparâmetros, com val
 ## Para o professor
 
 1. **Executar:** use o botão **Abrir no Colab** acima e selecione **Ambiente de execução → Executar tudo**. Alternativamente, baixe o `.ipynb` e importe pelo menu Arquivo do Colab.
-2. **Conferir a análise:** o [notebook principal executado](ml/agua_na_rua_ml.ipynb) é a versão legível no GitHub, com tabelas e sete figuras já salvas. O [relatório](RELATORIO_ML.md) apresenta a síntese.
+2. **Conferir a análise:** o [notebook de leitura com saídas](ml/apoio/agua_na_rua_ml.ipynb) é a versão legível no GitHub, com tabelas e sete figuras já salvas. O [relatório](RELATORIO_ML.md) apresenta a síntese.
 3. **Conferir os requisitos:** o [guia de avaliação](docs/GUIA_AVALIACAO.md) relaciona cada critério do edital às evidências correspondentes.
 
 O notebook de Colab é **um único arquivo com os 15 GPKGs completos e o código de apoio embutidos**. Não exige outros uploads, Google Drive, clonagem ou edição de caminhos. As bibliotecas são preparadas automaticamente; a instalação pode usar internet. O treinamento é executado novamente, usando CPU. Ao terminar, há download dos resultados. [Instruções detalhadas e limites da validação](docs/EXECUTAR_COLAB.md).
@@ -101,7 +101,7 @@ KMeans + PCA, com 76 distritos no treino e 20 no teste, seed 42. Foram avaliadas
 | --- | --- |
 | Rubrica e exigências das páginas 31–33 do edital | [Guia de avaliação](docs/GUIA_AVALIACAO.md), com links por critério |
 | Notebook para executar com um único arquivo | [agua_na_rua_colab.ipynb](ml/agua_na_rua_colab.ipynb?raw=1) |
-| Notebook legível, executado e com saídas | [agua_na_rua_ml.ipynb](ml/agua_na_rua_ml.ipynb) |
+| Notebook legível, executado e com saídas | [agua_na_rua_ml.ipynb](ml/apoio/agua_na_rua_ml.ipynb) |
 | Relatório de aproximadamente duas páginas | [RELATORIO_ML.md](RELATORIO_ML.md) |
 | Fonte, datas, tipos, CRS, limpeza e hashes | [Dados](ml/dados/README.md), [auditoria](ml/resultados/auditoria_arquivos.csv), [manifesto](ml/resultados/manifesto_fontes.json) |
 | Grade completa, métricas por fold e IDs | [Busca](ml/resultados/busca_cv.csv), [folds](ml/resultados/metricas_folds.csv), [divisão](ml/resultados/divisao_distritos.csv) |
@@ -130,13 +130,13 @@ O prazo do edital é **19/11/2026, às 23h55 de São Paulo**: um integrante envi
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r ml/requirements.txt
-.\.venv\Scripts\python.exe ml/executar_notebook.py
+.\.venv\Scripts\python.exe ml/apoio/executar_notebook.py
 ```
 
-O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
+O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/apoio/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
 
 
-Após a execução, rode `python ml/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json).
+Após a execução, rode `python ml/apoio/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json).
 
 A equipe forneceu o notebook executado no Colab com Python 3.13.18. A revisão confirmou as 12 células de código executadas, sete gráficos, ausência de saídas de erro e resultados compatíveis com a execução local. O arquivo publicado conserva as saídas fornecidas pela equipe. [Verificação da edição de Colab](ml/resultados/verificacao_colab.json).
 

@@ -5,7 +5,7 @@
 - [README com entrada para o professor](../README.md).
 - [Guia de requisitos e evidências](GUIA_AVALIACAO.md).
 - [Notebook de arquivo único para baixar e executar no Colab](../ml/agua_na_rua_colab.ipynb?raw=1).
-- [Notebook principal executado](../ml/agua_na_rua_ml.ipynb), [relatório](../RELATORIO_ML.md), [resultados](../ml/resultados/README.md) e [roteiro](ROTEIRO_VIDEO_ML.md).
+- [Notebook de leitura com saídas](../ml/apoio/agua_na_rua_ml.ipynb), [relatório](../RELATORIO_ML.md), [resultados](../ml/resultados/README.md) e [roteiro](ROTEIRO_VIDEO_ML.md).
 - Dados completos, código e modelo preservados no repositório.
 
 ## Informações e ações externas pendentes

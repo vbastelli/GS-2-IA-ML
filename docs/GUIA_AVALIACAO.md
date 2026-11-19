@@ -18,9 +18,9 @@
 | Exigência | Evidência ou estado |
 | --- | --- |
 | Ficha comum às disciplinas e equipe | Ficha integral no início do [README](../README.md), em bloco expansível; original em [agua-na-rua.md](agua-na-rua.md); nomes/RMs em [integrantes.txt](integrantes.txt) |
-| Pasta `ml/` com notebook executado | [Versão legível executada](../ml/agua_na_rua_ml.ipynb) e [versão de arquivo único para Colab](../ml/agua_na_rua_colab.ipynb) |
+| Pasta `ml/` com notebook executado | [Versão legível executada](../ml/apoio/agua_na_rua_ml.ipynb) e [versão de arquivo único para Colab](../ml/agua_na_rua_colab.ipynb) |
 | Dados públicos, não simulados | 15 GPKGs completos preservados; 2013–2025 na análise principal, 2026 auditado e excluído; nenhuma amostra sintética |
-| `dados/README.md` e `requirements.txt` | [Proveniência e reprodução](../ml/dados/README.md), [dependências diretas](../ml/requirements.txt), [ambiente completo](../ml/requirements-lock.txt) |
+| `dados/README.md` e `requirements.txt` | [Proveniência e reprodução](../ml/dados/README.md), [dependências diretas](../ml/requirements.txt), [ambiente completo](../ml/apoio/requirements-lock.txt) |
 | Relatório | [RELATORIO_ML.md](../RELATORIO_ML.md), síntese com extensão aproximada de duas páginas; detalhamento no notebook |
 | Pelo menos 10 combinações de 3 hiperparâmetros | 18 candidatas, mantendo N/A quando um fold prevê apenas um grupo; candidatas incompletas não concorrem |
 | Transformações sem vazamento | Remoção de constantes, StandardScaler e PCA ajustados no subtreino de cada fold; `predict` na validação e no teste; modelo salvo apenas no treino |
@@ -31,7 +31,7 @@
 
 ## Integridade e limitações
 
-As verificações executadas estão em [verificacao_entrega.json](../ml/resultados/verificacao_entrega.json) e [verificacao_colab.json](../ml/resultados/verificacao_colab.json). O [verificador](../ml/verificar_entrega.py) confere execução sem erros, imagens, hashes, separação dos IDs, CV apenas no treino e coerência das contagens e métricas. Não treina novamente nem usa o teste para selecionar parâmetros.
+As verificações executadas estão em [verificacao_entrega.json](../ml/resultados/verificacao_entrega.json) e [verificacao_colab.json](../ml/resultados/verificacao_colab.json). O [verificador](../ml/apoio/verificar_entrega.py) confere execução sem erros, imagens, hashes, separação dos IDs, CV apenas no treino e coerência das contagens e métricas. Não treina novamente nem usa o teste para selecionar parâmetros.
 
 O estudo tem separação fraca entre grupos; esse resultado é parte da entrega, não uma validação de classes de risco. A malha de 2026 foi aplicada retrospectivamente; há subnotificação e dependência espacial. Os cinco pontos sem associação unívoca estão [exportados para revisão](../ml/dados/processados/alagamentos_sem_distrito.csv). Não foram inventadas entrevistas, validação dos pontos locais, previsões ou redução de danos.
 

@@ -6,9 +6,9 @@ import nbformat
 import pandas as pd
 import joblib
 
-root=Path(__file__).resolve().parents[1]
+root=Path(__file__).resolve().parents[2]
 out=root/'ml/resultados'
-nb=nbformat.read(root/'ml/agua_na_rua_ml.ipynb',as_version=4)
+nb=nbformat.read(root/'ml/apoio/agua_na_rua_ml.ipynb',as_version=4)
 nbformat.validate(nb)
 code=[c for c in nb.cells if c.cell_type=='code']
 assert all(c.execution_count is not None for c in code)

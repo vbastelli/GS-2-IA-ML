@@ -20,7 +20,7 @@ Para guardar também o notebook com as novas saídas, use **Arquivo → Fazer do
 
 ## Conferir sem executar
 
-O [notebook principal executado](../ml/agua_na_rua_ml.ipynb) é menor e mais fácil de ler no GitHub. O [índice de resultados](../ml/resultados/README.md) mostra os gráficos e aponta para as tabelas. O código comum às duas edições está em [estudo.py](../ml/estudo.py).
+O [notebook de leitura com saídas](../ml/apoio/agua_na_rua_ml.ipynb) é menor e mais fácil de ler no GitHub. O [índice de resultados](../ml/resultados/README.md) mostra os gráficos e aponta para as tabelas. O código comum às duas edições está em [estudo.py](../ml/estudo.py).
 
 ## Reprodução e limites da verificação
 

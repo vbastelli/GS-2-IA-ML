@@ -358,7 +358,7 @@ O estudo ajuda a investigar áreas para acompanhamento; não identifica passagem
     limits += '\n\n'+local_note+'\n'
     report=f"""# Relatório de IA & Machine Learning — Água na Rua
 
-Síntese de aproximadamente duas páginas (Markdown não fixa paginação). Detalhes e saídas no [notebook](ml/agua_na_rua_ml.ipynb).
+Síntese de aproximadamente duas páginas (Markdown não fixa paginação). Detalhes e saídas no [notebook](ml/apoio/agua_na_rua_ml.ipynb).
 
 ## Problema, dados e preparação
 
@@ -400,10 +400,10 @@ Gráficos, métricas por fold, IDs, atribuições e modelo avaliado estão em ml
 ```powershell
 python -m venv .venv
 .\\.venv\\Scripts\\python.exe -m pip install -r ml/requirements.txt
-.\\.venv\\Scripts\\python.exe ml/executar_notebook.py
+.\\.venv\\Scripts\\python.exe ml/apoio/executar_notebook.py
 ```
 
-O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
+O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kernels globais. Alternativa na interface: abrir `ml/apoio/agua_na_rua_ml.ipynb`, selecionar esse ambiente Python e executar todas as células. Para nbconvert, o executor fornece um kernelspec temporário; não depende de um kernel global com nome específico.
 """
     ficha=(ROOT/'docs/agua-na-rua.md').read_text(encoding='utf-8')
     team=[]
@@ -426,7 +426,7 @@ Global Solution CitizenTech · Engenharia de Software · **{turma}** · FIAP 202
 ## Para o professor
 
 1. **Executar:** use o botão **Abrir no Colab** acima e selecione **Ambiente de execução → Executar tudo**. Alternativamente, baixe o `.ipynb` e importe pelo menu Arquivo do Colab.
-2. **Conferir a análise:** o [notebook principal executado](ml/agua_na_rua_ml.ipynb) é a versão legível no GitHub, com tabelas e sete figuras já salvas. O [relatório](RELATORIO_ML.md) apresenta a síntese.
+2. **Conferir a análise:** o [notebook de leitura com saídas](ml/apoio/agua_na_rua_ml.ipynb) é a versão legível no GitHub, com tabelas e sete figuras já salvas. O [relatório](RELATORIO_ML.md) apresenta a síntese.
 3. **Conferir os requisitos:** o [guia de avaliação](docs/GUIA_AVALIACAO.md) relaciona cada critério do edital às evidências correspondentes.
 
 O notebook de Colab é **um único arquivo com os 15 GPKGs completos e o código de apoio embutidos**. Não exige outros uploads, Google Drive, clonagem ou edição de caminhos. As bibliotecas são preparadas automaticamente; a instalação pode usar internet. O treinamento é executado novamente, usando CPU. Ao terminar, há download dos resultados. [Instruções detalhadas e limites da validação](docs/EXECUTAR_COLAB.md).
@@ -459,7 +459,7 @@ KMeans + PCA, com {m['treino']['n']} distritos no treino e {m['teste']['n']} no 
 | --- | --- |
 | Rubrica e exigências das páginas 31–33 do edital | [Guia de avaliação](docs/GUIA_AVALIACAO.md), com links por critério |
 | Notebook para executar com um único arquivo | [agua_na_rua_colab.ipynb](ml/agua_na_rua_colab.ipynb?raw=1) |
-| Notebook legível, executado e com saídas | [agua_na_rua_ml.ipynb](ml/agua_na_rua_ml.ipynb) |
+| Notebook legível, executado e com saídas | [agua_na_rua_ml.ipynb](ml/apoio/agua_na_rua_ml.ipynb) |
 | Relatório de aproximadamente duas páginas | [RELATORIO_ML.md](RELATORIO_ML.md) |
 | Fonte, datas, tipos, CRS, limpeza e hashes | [Dados](ml/dados/README.md), [auditoria](ml/resultados/auditoria_arquivos.csv), [manifesto](ml/resultados/manifesto_fontes.json) |
 | Grade completa, métricas por fold e IDs | [Busca](ml/resultados/busca_cv.csv), [folds](ml/resultados/metricas_folds.csv), [divisão](ml/resultados/divisao_distritos.csv) |
@@ -478,7 +478,7 @@ O prazo do edital é **19/11/2026, às 23h55 de São Paulo**: um integrante envi
 
 {commands}
 
-Após a execução, rode `python ml/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json).
+Após a execução, rode `python ml/apoio/verificar_entrega.py` usando o mesmo ambiente. [Evidências da verificação](ml/resultados/verificacao_entrega.json).
 
 {colab_status} [Verificação da edição de Colab](ml/resultados/verificacao_colab.json).
 
@@ -520,7 +520,7 @@ Processados: alagamentos_2013_2025.csv contém apenas registros atribuídos; ala
 
 {commands}
 
-Todas as saídas são regeneradas pelo notebook. requirements.txt fixa dependências diretas verificadas; requirements-lock.txt captura também dependências transitivas. Não há dados simulados no estudo.
+Todas as saídas são regeneradas pelo notebook. requirements.txt fixa dependências diretas verificadas; apoio/requirements-lock.txt captura também dependências transitivas. Não há dados simulados no estudo.
 """
     (ROOT/'ml/dados/README.md').write_text(data_doc,encoding='utf-8')
     video=f"""# Roteiro — vídeo de IA & ML (até 5 minutos)

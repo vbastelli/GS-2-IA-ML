@@ -8,11 +8,11 @@ import argparse
 import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
 
-root=Path(__file__).resolve().parents[1]
+root=Path(__file__).resolve().parents[2]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--colab',action='store_true',help='Validar a edição de arquivo único em kernel limpo local.')
 args=parser.parse_args()
-path=root/'ml'/('agua_na_rua_colab.ipynb' if args.colab else 'agua_na_rua_ml.ipynb')
+path=root/'ml'/('agua_na_rua_colab.ipynb' if args.colab else 'apoio/agua_na_rua_ml.ipynb')
 with tempfile.TemporaryDirectory(prefix='agua_na_rua_kernel_') as folder:
     kernel=Path(folder)/'kernels'/'agua-na-rua'
     kernel.mkdir(parents=True)
