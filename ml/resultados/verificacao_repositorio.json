@@ -13,5 +13,7 @@
   "push_realizado": false,
   "colab_hospedado_testado": true,
   "pacote_embutido_integro": true,
-  "apoio_embutido_snapshot_da_execucao": true
+  "apoio_embutido_snapshot_da_execucao": true,
+  "documentacao_csharp_soa_coerente": true,
+  "saidas_executadas_preservadas": true
 }

@@ -34,13 +34,15 @@ As disciplinas compartilharão o mesmo problema, cidadão e conceito. Os compone
 | Disciplina | O que o grupo construirá ou demonstrará |
 |---|---|
 | **SOA e Web Services** | Desenvolverá uma API para consultar pontos e registrar observações, com domínio organizado, banco, migrações, documentação dos endpoints e testes automatizados. |
-| **C# Software Development** | Utilizará o mesmo backend de SOA em C#/.NET, demonstrando POO, interfaces, injeção de dependência, Web API, EF Core, LINQ, operações assíncronas e testes unitários. |
+| **C# Software Development** | Desenvolverá uma Web API independente em C#/.NET, demonstrando POO, interfaces, injeção de dependência, EF Core, LINQ, operações assíncronas e testes unitários. |
 | **IA & Machine Learning** | Investigará padrões de recorrência e sazonalidade das ocorrências públicas de alagamento. Utilizará KMeans + PCA para explorar agrupamentos de áreas e apoiar a escolha de pontos para monitoramento. O notebook será independente do aplicativo. |
 | **Mobile Development & IoT** | Desenvolverá um app com React Native, TypeScript, Expo e Expo Router para consultar pontos, visualizar observações, salvar favoritos e registrar ocorrências. Consumirá API ou mock identificado e utilizará SQLite para persistência local. |
 | **Operating Systems** | Provisionará uma VM Linux por Shell Script para executar a API e uma página web de acompanhamento. Demonstrará serviços, monitoramento, logs e recuperação após falha. |
 | **Physical Computing** | Simulará no Wokwi um ESP32 com sensor ultrassônico, display e sinalização. A variação da distância representará a elevação da água, sem exigir conexão com o app. |
 | **Cybersecurity** | Demonstrará identificação de PII nos relatos, taint analysis, bloqueio ou sanitização de saídas inseguras, explicação dos achados por LLM e painel de Risco Cidadão, seguindo o material anterior da disciplina. |
 | **Testing, Compliance & QA** | Organizará Features, critérios de aceite e testes positivos e negativos no Azure Boards. Reunirá evidências em PDF e apresentará a proposta em pitch de até quatro minutos. |
+
+A Web API de C# terá código, banco, migrations e testes próprios. A implementação de SOA será uma entrega separada.
 
 ## Dados públicos para Machine Learning
 

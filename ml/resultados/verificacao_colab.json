@@ -10,7 +10,7 @@
   "resultados_compativeis_com_execucao_original": true,
   "colab_hospedado_testado": true,
   "origem_evidencia": "Arquivo agua_na_rua_colab(1).ipynb fornecido pela equipe",
-  "sha256_notebook": "70b0978acd473c2933c8a278fe1df608a2a3f71956304f77b24e9416ddebb0cd",
+  "sha256_notebook": "cf6dffebe3c27e65c8625d9c3246c5d82c9f6154fc45794be18ea06f4ed6f3b3",
   "python_observado_nas_saidas": "3.13.18",
   "python_metadata_herdado": "3.14.5",
   "data_revisao": "2026-11-18",
@@ -32,5 +32,16 @@
   "arquivos_embutidos_verificados": 28,
   "pacote_embutido_snapshot_da_execucao": true,
   "readme_relatorio_enviados_coerentes": true,
-  "zip_resultados": "A última célula registra a geração. O ZIP da nova execução não foi fornecido para inspeção."
+  "zip_resultados": "A última célula registra a geração. O ZIP da nova execução não foi fornecido para inspeção.",
+  "sha256_notebook_execucao_recebida": "70b0978acd473c2933c8a278fe1df608a2a3f71956304f77b24e9416ddebb0cd",
+  "ajuste_documental": {
+    "data": "2026-11-19",
+    "descricao": "Descrição de C# atualizada para Web API independente e implementação de SOA separada.",
+    "arquivos_embutidos_alterados": [
+      "docs/agua-na-rua.md"
+    ],
+    "saidas_executadas_preservadas": true,
+    "novo_treinamento": false,
+    "hashes_pacote_e_arquivos_conferidos": true
+  }
 }
