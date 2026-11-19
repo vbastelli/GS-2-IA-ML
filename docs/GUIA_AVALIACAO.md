@@ -26,8 +26,8 @@
 | Transformações sem vazamento | Remoção de constantes, StandardScaler e PCA ajustados no subtreino de cada fold; `predict` na validação e no teste; modelo salvo apenas no treino |
 | Métricas apropriadas e gráficos | Silhouette e Davies–Bouldin no espaço padronizado anterior ao PCA; [sete figuras](../ml/resultados/README.md) |
 | Registro de apoio da equipe | Mantido localmente pela equipe, fora do repositório público |
-| Vídeo de até cinco minutos, não listado | [Roteiro com resultados reais](ROTEIRO_VIDEO_ML.md) pronto; gravação, publicação e link pendentes da equipe |
-| Links do GitHub e vídeo no Teams | Publicação/envio pendentes; prazo do edital: 19/11/2026, 23h55 (São Paulo), por um integrante |
+| Vídeo de até cinco minutos, não listado | [Vídeo no YouTube](https://www.youtube.com/watch?v=Oy50n6N8uW8) · [Roteiro com resultados reais](ROTEIRO_VIDEO_ML.md) |
+| Links do GitHub e vídeo no Teams | Links disponíveis para envio por um integrante até 19/11/2026, 23h55 (São Paulo), conforme edital |
 
 ## Integridade e limitações
 

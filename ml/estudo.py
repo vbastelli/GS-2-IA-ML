@@ -324,6 +324,8 @@ def documents(s):
     repo=delivery.get('repositorio') or '[URL não informada]'
     turma=delivery.get('turma') or 'Não informada'
     video=delivery.get('video') or 'Pendente de gravação e publicação pela equipe'
+    video_status=f'[Assistir no YouTube]({video})' if delivery.get('video') else 'Gravação e publicação pendentes da equipe'
+    video_nav=f' · **[Vídeo no YouTube]({video})**' if delivery.get('video') else ''
     evidence_path=OUT/'verificacao_colab.json'
     evidence=json.loads(evidence_path.read_text(encoding='utf-8')) if evidence_path.exists() else {}
     colab_status=('A equipe forneceu o notebook executado no Colab. A revisão confirmou células executadas, sete gráficos, ausência de saídas de erro e resultados compatíveis com a execução local.'
@@ -413,7 +415,7 @@ O executor usa o Python do próprio ambiente em kernel limpo, sem instalar kerne
 
 Global Solution CitizenTech · Engenharia de Software · **{turma}** · FIAP 2026.2
 
-**[Abrir no Colab]({colab_url})** · **[Baixar notebook para Colab](ml/agua_na_rua_colab.ipynb?raw=1)** · [Relatório](RELATORIO_ML.md) · [Requisitos e evidências](docs/GUIA_AVALIACAO.md) · [Todos os resultados](ml/resultados/README.md)
+**[Abrir no Colab]({colab_url})** · **[Baixar notebook para Colab](ml/agua_na_rua_colab.ipynb?raw=1)**{video_nav} · [Relatório](RELATORIO_ML.md) · [Requisitos e evidências](docs/GUIA_AVALIACAO.md) · [Todos os resultados](ml/resultados/README.md)
 
 <details>
 <summary><strong>Ficha da CitizenTech — texto integral da proposta comum às disciplinas</strong></summary>
@@ -462,7 +464,7 @@ KMeans + PCA, com {m['treino']['n']} distritos no treino e {m['teste']['n']} no 
 | Fonte, datas, tipos, CRS, limpeza e hashes | [Dados](ml/dados/README.md), [auditoria](ml/resultados/auditoria_arquivos.csv), [manifesto](ml/resultados/manifesto_fontes.json) |
 | Grade completa, métricas por fold e IDs | [Busca](ml/resultados/busca_cv.csv), [folds](ml/resultados/metricas_folds.csv), [divisão](ml/resultados/divisao_distritos.csv) |
 | Código, dependências e modelo avaliado | [estudo.py](ml/estudo.py), [requirements.txt](ml/requirements.txt), [metadados do modelo](ml/modelos/metadados.json) |
-| Vídeo de até cinco minutos | [Roteiro](docs/ROTEIRO_VIDEO_ML.md); gravação e publicação pendentes |
+| Vídeo de até cinco minutos | {video_status} · [Roteiro](docs/ROTEIRO_VIDEO_ML.md) |
 
 ## Equipe e entrega
 

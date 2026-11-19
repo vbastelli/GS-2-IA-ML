@@ -2,7 +2,7 @@
 
 Global Solution CitizenTech · Engenharia de Software · **3ESPZ** · FIAP 2026.2
 
-**[Abrir no Colab](https://colab.research.google.com/github/vbastelli/GS-2-IA-ML/blob/main/ml/agua_na_rua_colab.ipynb)** · **[Baixar notebook para Colab](ml/agua_na_rua_colab.ipynb?raw=1)** · [Relatório](RELATORIO_ML.md) · [Requisitos e evidências](docs/GUIA_AVALIACAO.md) · [Todos os resultados](ml/resultados/README.md)
+**[Abrir no Colab](https://colab.research.google.com/github/vbastelli/GS-2-IA-ML/blob/main/ml/agua_na_rua_colab.ipynb)** · **[Baixar notebook para Colab](ml/agua_na_rua_colab.ipynb?raw=1)** · **[Vídeo no YouTube](https://www.youtube.com/watch?v=Oy50n6N8uW8)** · [Relatório](RELATORIO_ML.md) · [Requisitos e evidências](docs/GUIA_AVALIACAO.md) · [Todos os resultados](ml/resultados/README.md)
 
 <details>
 <summary><strong>Ficha da CitizenTech — texto integral da proposta comum às disciplinas</strong></summary>
@@ -106,7 +106,7 @@ KMeans + PCA, com 76 distritos no treino e 20 no teste, seed 42. Foram avaliadas
 | Fonte, datas, tipos, CRS, limpeza e hashes | [Dados](ml/dados/README.md), [auditoria](ml/resultados/auditoria_arquivos.csv), [manifesto](ml/resultados/manifesto_fontes.json) |
 | Grade completa, métricas por fold e IDs | [Busca](ml/resultados/busca_cv.csv), [folds](ml/resultados/metricas_folds.csv), [divisão](ml/resultados/divisao_distritos.csv) |
 | Código, dependências e modelo avaliado | [estudo.py](ml/estudo.py), [requirements.txt](ml/requirements.txt), [metadados do modelo](ml/modelos/metadados.json) |
-| Vídeo de até cinco minutos | [Roteiro](docs/ROTEIRO_VIDEO_ML.md); gravação e publicação pendentes |
+| Vídeo de até cinco minutos | [Assistir no YouTube](https://www.youtube.com/watch?v=Oy50n6N8uW8) · [Roteiro](docs/ROTEIRO_VIDEO_ML.md) |
 
 ## Equipe e entrega
 
@@ -117,7 +117,7 @@ KMeans + PCA, com 76 distritos no treino e 20 no teste, seed 42. Foram avaliadas
 | Vitor Bebiano Mulford | 555026 |
 | Victório Maia Bastelli | 554723 |
 
-**Turma:** 3ESPZ. **Repositório:** https://github.com/vbastelli/GS-2-IA-ML. **Vídeo:** Pendente de gravação e publicação pela equipe.
+**Turma:** 3ESPZ. **Repositório:** https://github.com/vbastelli/GS-2-IA-ML. **Vídeo:** [Assistir no YouTube](https://www.youtube.com/watch?v=Oy50n6N8uW8).
 
 O prazo do edital é **19/11/2026, às 23h55 de São Paulo**: um integrante envia no Teams os links do GitHub e do vídeo YouTube não listado. A publicação do código, a gravação do vídeo e o envio ao Teams são ações da equipe. [Controle da entrega](docs/ENTREGA.md).
 

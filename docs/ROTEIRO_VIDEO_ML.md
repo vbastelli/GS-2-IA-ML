@@ -2,7 +2,7 @@
 
 Turma: 3ESPZ. Repositório: https://github.com/vbastelli/GS-2-IA-ML.
 
-Link YouTube não listado: Pendente de gravação e publicação pela equipe.
+Vídeo no YouTube: https://www.youtube.com/watch?v=Oy50n6N8uW8
 
 - 0:00–0:35 — Mostrar Ficha no README: cidadão, Jardim Peri, informação recente sobre água nas ruas; ML independente e distrital.
 - 0:35–1:20 — Notebook, auditoria e limpeza: 7032 registros brutos de ALAGAMENTO em 2013–2025; 110 duplicatas removidas; 5 sem associação distrital unívoca; **6917 registros na análise principal**, em 96 distritos. Mostrar 01_registros_ano.png e 02_registros_mes.png; 2026 excluído; campos reais, duplicatas, dois polígonos reparados e exceções de associação.
